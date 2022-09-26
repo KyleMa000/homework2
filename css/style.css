@@ -29,23 +29,25 @@ img{
 div{
     min-height: 100px;
     padding: 20px;
-    border: 3px solid white;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
 }
 
 div.red{
     background-color: #FF7F7F;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 3px inherit inherit;
-    border-left: 10px inherit inherit;
+    border-bottom-width: 3px;
+    border-left-width: 10px;
 }
 
 div.blue{
     background-color: #ADD8E6;
     text-align: left;
     margin-right: 50px;
-    border-bottom: 3px inherit inherit;
-    border-right: 10px inherit inherit;
+    border-bottom-width: 3px;
+    border-right-width: 10px;
 }
 
 span{
